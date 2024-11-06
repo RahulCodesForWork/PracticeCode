@@ -9,7 +9,9 @@ public class PracticeCodeApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(PracticeCodeApplication.class, args);
-		System.out.println("Welcome to");
+		System.out.println("Welcome to practice code");
+		ThreadUsingExtendThread newThread = new ThreadUsingExtendThread();
+		newThread.start();
 	}
 
 }
